@@ -5,6 +5,10 @@ var a = '[a, b, c, d]';
 var b = [1, 2, 3, 4];
 //TODO
 
+if(a.typeof(Array)) {
+    console.log("a");
+}
+
 
 // 编写程序，将下面数组中的每一项都乘以2。
 var a = [1, 2, 3, 4, 5];
